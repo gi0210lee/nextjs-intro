@@ -5,7 +5,7 @@ export default function Detail() {
   console.log(router);
   return (
     <div>
-      <h4>{router.query.title + "3" || "Loading..."}</h4>
+      <h4>{router.query.title + "123" || "Loading..."}</h4>
     </div>
   );
 }
